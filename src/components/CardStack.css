@@ -1,0 +1,17 @@
+
+* {
+  box-sizing: border-box;
+}
+.cardStack-component {
+  position: absolute;
+  top: 47%;
+  height:38.5%;
+  width:100%;
+  min-width: inherit;
+
+}
+
+.cardStack-section {
+  display: grid;
+  grid-auto-rows: 2.6rem;
+}

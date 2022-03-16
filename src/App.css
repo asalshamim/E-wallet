@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  position: relative;
+  display: flex;
+  margin: auto;
+  width: 414px;
+  height: 896px;
+
+  text-align: center;
+  background-color: #E5E5E5;
+  flex-direction: column;
+}
+
+.navigation-button {
+  position: absolute;
+  width: 382px;
+  height: 80px;
+  left: 3.5%;
+  bottom: 1.5%;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  margin: auto;
+}
