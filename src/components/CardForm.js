@@ -19,17 +19,17 @@ function CardForm(props) {
   return (
     <section className="cardForm-section">
     <label>CARD NUMBER
-    <input type="text" id="cardNumberInput" className="cardNumber-input big" onChange={ cardChange } placeholder="0000 0000 0000 0000"/>
+    <input type="text" id="cardNumberInput" maxLength="16" className="cardNumber-input big" onChange={ cardChange } placeholder="0000 0000 0000 0000"/>
     </label>
     <label>CARDHOLDER NAME
-    <input type="text" id="nameInput" className="cardName-input big" onChange={ cardChange } placeholder="Firstname Lastname"/>
+    <input type="text" id="nameInput" maxLength="25" className="cardName-input big" onChange={ cardChange } placeholder="Firstname Lastname"/>
     </label>
     <div className="validAndCcv">
     <label>VALID THRU
-    <input type="text" id="validThruInput" className="validThru-input small" onChange={ cardChange } placeholder="MM/YY"/>
+    <input type="text" id="validThruInput" maxLength="5" className="validThru-input small" onChange={ cardChange } placeholder="MM/YY"/>
     </label>
     <label>CCV
-    <input type="text" id="ccvInput" className="ccv-input small" onChange={ cardChange } placeholder="XXX"/>
+    <input type="text" id="ccvInput" maxLength="3" className="ccv-input small" onChange={ cardChange } placeholder="XXX"/>
     </label>
     </div>
     <label>VENDOR

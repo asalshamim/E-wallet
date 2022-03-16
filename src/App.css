@@ -1,15 +1,16 @@
 * {
   box-sizing: border-box;
 }
+
 .App {
   position: relative;
   display: flex;
   margin: auto;
-  width: 414px;
+  width: 804px;
   height: 896px;
 
   text-align: center;
-  background-color: #E5E5E5;
+  background-color: #fffefe;
   flex-direction: column;
 }
 
